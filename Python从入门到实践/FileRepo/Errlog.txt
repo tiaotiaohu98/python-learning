@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\Charlee\AppData\Local\Temp\ipykernel_26760\4229357085.py", line 15, in <module>
+    password(pwd)
+  File "C:\Users\Charlee\AppData\Local\Temp\ipykernel_26760\4229357085.py", line 9, in password
+    raise Exception('密码长度超长！！！')
+Exception: 密码长度超长！！！
+Traceback (most recent call last):
+  File "C:\Users\Charlee\AppData\Local\Temp\ipykernel_26760\4229357085.py", line 15, in <module>
+    password(pwd)
+  File "C:\Users\Charlee\AppData\Local\Temp\ipykernel_26760\4229357085.py", line 7, in password
+    raise Exception('密码长度不足！！')
+Exception: 密码长度不足！！
