@@ -1,0 +1,41 @@
+2023-11-11 16:34:26,912  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-11 16:34:26,913  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-11 16:34:26,914  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-11 16:34:26,943  [INFO]  mysql_util.py[79] : 事务回滚了！
+2023-11-11 16:34:26,943  [INFO]  mysql_util.py[46] : 非查询语句：create table barcode_monitor(id INT PRIMARY KEY AUTO_INCREMENT COMMENT '自增ID', time_record TIMESTAMP NOT NULL COMMENT '本次采集记录的最大时间', gather_line_count INT NULL COMMENT '本次采集条数')执行失败！
+2023-11-11 16:34:26,943  [INFO]  mysql_util.py[103] : 数据库metadata中的数据表barcode_monitor创建成功！
+2023-11-11 16:36:23,210  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-11 16:36:23,210  [INFO]  mysql_util.py[28] : 数据库source_data已经切换成功！
+2023-11-11 16:36:23,211  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-11 16:36:23,249  [INFO]  mysql_util.py[79] : 事务回滚了！
+2023-11-11 16:36:23,249  [INFO]  mysql_util.py[46] : 非查询语句：create table barcode_monitor(id INT PRIMARY KEY AUTO_INCREMENT COMMENT '自增ID', time_record TIMESTAMP NOT NULL COMMENT '本次采集记录的最大时间', gather_line_count INT NULL COMMENT '本次采集条数')执行失败！
+2023-11-11 16:36:23,249  [INFO]  mysql_util.py[103] : 数据库source_data中的数据表barcode_monitor创建成功！
+2023-11-11 16:38:45,963  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-11 16:38:45,964  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-11 16:38:45,965  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-11 16:38:45,965  [INFO]  mysql_util.py[105] : 数据库metadata中的barcode_monitor表已经存在，无法创建！
+2023-11-11 16:39:00,085  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-11 16:39:00,086  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-11 16:39:00,087  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-11 16:39:00,087  [INFO]  mysql_util.py[105] : 数据库metadata中的barcode_monitor表已经存在，无法创建！
+2023-11-11 16:39:00,088  [INFO]  mysql_util.py[59] : 查询SQL：select max(time_record) from barcode_monitor查询成功!
+2023-11-11 16:39:30,432  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-11 16:39:30,432  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-11 16:39:30,433  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-11 16:39:30,433  [INFO]  mysql_util.py[105] : 数据库metadata中的barcode_monitor表已经存在，无法创建！
+2023-11-11 16:39:30,434  [INFO]  mysql_util.py[59] : 查询SQL：select max(time_record) from barcode_monitor查询成功!
+2023-11-11 16:39:41,660  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-11 16:39:41,661  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-11 16:39:41,662  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-11 16:39:41,662  [INFO]  mysql_util.py[105] : 数据库metadata中的barcode_monitor表已经存在，无法创建！
+2023-11-11 16:39:41,662  [INFO]  mysql_util.py[59] : 查询SQL：select max(time_record) from barcode_monitor查询成功!
+2023-11-11 16:43:52,398  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-11 16:43:52,399  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-11 16:43:52,400  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-11 16:43:52,400  [INFO]  mysql_util.py[105] : 数据库metadata中的barcode_monitor表已经存在，无法创建！
+2023-11-11 16:43:52,400  [INFO]  mysql_util.py[59] : 查询SQL：select max(time_record) from barcode_monitor查询成功!
+2023-11-11 16:44:36,527  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-11 16:44:36,528  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-11 16:44:36,529  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-11 16:44:36,530  [INFO]  mysql_util.py[105] : 数据库metadata中的barcode_monitor表已经存在，无法创建！
+2023-11-11 16:44:36,531  [INFO]  mysql_util.py[59] : 查询SQL：select max(time_record) from barcode_monitor查询成功!

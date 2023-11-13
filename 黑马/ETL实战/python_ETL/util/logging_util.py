@@ -8,21 +8,22 @@
 
 # 导入模块
 import logging
+from os import name
 from config import projrct_config as conf
 
 
 # 定义一个工具类，用于创建日志对象，并设置日志级别
 class LoggingUtil(object):
 
-    def __init__(self, level=logging.INFO):
-        self.logger = logging.getLogger()
+    def __init__(self, level=logging.INFO,name=None):
+        self.logger = logging.getLogger(name)
         self.logger.setLevel(level)
 
 
-def init_logger():
+def init_logger(name=None):
     # 获取logger日志器对象，以及绑定日志管理器和输出格式
     # 1、创建日志对象
-    logger = LoggingUtil().logger
+    logger = LoggingUtil(name=name).logger
 
     # 2、创建一个日志处理器对象
     file_handler = logging.FileHandler(
@@ -32,7 +33,7 @@ def init_logger():
 
     # 3、创建一个日志格式对象
     fmt = logging.Formatter(
-        '[%(asctime)s] - %(levelname)s - %(filename)s[%(lineno)d] : %(message)s')
+        '%(asctime)s  [%(levelname)s]  %(filename)s[%(lineno)d] : %(message)s')
 
     # 4、将日志格式添加到日志处理器中
     file_handler.setFormatter(fmt)

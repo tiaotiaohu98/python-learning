@@ -1,0 +1,53 @@
+2023-11-12 17:54:09,923  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:54:09,924  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-12 17:54:09,925  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-12 17:54:09,925  [INFO]  mysql_util.py[105] : 数据库metadata中的json_file_monitor表已经存在，无法创建！
+2023-11-12 17:55:16,355  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:55:16,356  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-12 17:55:16,358  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-12 17:55:16,358  [INFO]  mysql_util.py[105] : 数据库metadata中的json_file_monitor表已经存在，无法创建！
+2023-11-12 17:55:50,496  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:55:50,497  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-12 17:55:50,498  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-12 17:55:50,498  [INFO]  mysql_util.py[105] : 数据库metadata中的json_file_monitor表已经存在，无法创建！
+2023-11-12 17:56:32,797  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:56:32,798  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-12 17:56:32,799  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-12 17:56:32,799  [INFO]  mysql_util.py[105] : 数据库metadata中的json_file_monitor表已经存在，无法创建！
+2023-11-12 17:56:32,800  [INFO]  mysql_util.py[59] : 查询SQL：select file_name from json_file_monitor查询成功!
+2023-11-12 17:56:46,795  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:56:46,796  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-12 17:56:46,797  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-12 17:56:46,797  [INFO]  mysql_util.py[105] : 数据库metadata中的json_file_monitor表已经存在，无法创建！
+2023-11-12 17:56:46,797  [INFO]  mysql_util.py[59] : 查询SQL：select file_name from json_file_monitor查询成功!
+2023-11-12 17:56:46,814  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:57:00,645  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:57:00,646  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-12 17:57:00,647  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-12 17:57:00,647  [INFO]  mysql_util.py[105] : 数据库metadata中的json_file_monitor表已经存在，无法创建！
+2023-11-12 17:57:00,647  [INFO]  mysql_util.py[59] : 查询SQL：select file_name from json_file_monitor查询成功!
+2023-11-12 17:57:00,670  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:57:13,521  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:57:13,522  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-12 17:57:13,522  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-12 17:57:13,522  [INFO]  mysql_util.py[105] : 数据库metadata中的json_file_monitor表已经存在，无法创建！
+2023-11-12 17:57:13,523  [INFO]  mysql_util.py[59] : 查询SQL：select file_name from json_file_monitor查询成功!
+2023-11-12 17:57:13,524  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:57:29,826  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:57:29,827  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-12 17:57:29,828  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-12 17:57:29,828  [INFO]  mysql_util.py[105] : 数据库metadata中的json_file_monitor表已经存在，无法创建！
+2023-11-12 17:57:29,828  [INFO]  mysql_util.py[59] : 查询SQL：select file_name from json_file_monitor查询成功!
+2023-11-12 17:57:29,829  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:58:01,061  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:58:01,063  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-12 17:58:01,064  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-12 17:58:01,064  [INFO]  mysql_util.py[105] : 数据库metadata中的json_file_monitor表已经存在，无法创建！
+2023-11-12 17:58:01,064  [INFO]  mysql_util.py[59] : 查询SQL：select file_name from json_file_monitor;查询成功!
+2023-11-12 17:58:01,066  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:58:08,583  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功
+2023-11-12 17:58:08,584  [INFO]  mysql_util.py[28] : 数据库metadata已经切换成功！
+2023-11-12 17:58:08,585  [INFO]  mysql_util.py[59] : 查询SQL：show tables;查询成功!
+2023-11-12 17:58:08,585  [INFO]  mysql_util.py[105] : 数据库metadata中的json_file_monitor表已经存在，无法创建！
+2023-11-12 17:58:08,585  [INFO]  mysql_util.py[59] : 查询SQL：select file_name from json_file_monitor查询成功!
+2023-11-12 17:58:08,587  [INFO]  mysql_util.py[22] : 127.0.0.1:33061数据库已经连接成功

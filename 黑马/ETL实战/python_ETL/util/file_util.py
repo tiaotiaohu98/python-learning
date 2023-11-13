@@ -12,10 +12,12 @@ def get_dir_files_list(path='./', recursive=False):
     path_list = []
     
     file_names = os.listdir(path)
-    
+
     for file_name in file_names:
         file_path = os.path.join(path, file_name) #获取文件的相对路径
         abs_path = os.path.abspath(file_path) #获取文件的绝对路径
+        # sql插入时， \\会作为转义字符处理 故需要将\\替换为/
+        abs_path = abs_path.replace("\\","/")
         
         if os.path.isfile(abs_path):
             path_list.append(abs_path)
@@ -28,14 +30,15 @@ def get_dir_files_list(path='./', recursive=False):
 
 # 封装一个方法用于获取未处理的文件列表
 def get_new_by_compare_lists(processed_list, all_list):
-    # new_list = [x for x in all_list if x not in processed_list]
+    # sql插入时， \\会作为转义字符处理 故需要将\\替换为/
+    new_list = [x.replace("\\","/") for x in all_list if x not in processed_list]
     '''
         方法二：通过集合可以做差，计算
             缺点：会导致文的顺序被打乱
     '''
-    set1 = set(processed_list)
-    set2 = set(all_list)
-    new_list = list(set2-set1)
+    # set1 = set(processed_list)
+    # set2 = set(all_list)
+    # new_list = list(set2-set1)
     return new_list
 
 # if __name__ == '__main__':

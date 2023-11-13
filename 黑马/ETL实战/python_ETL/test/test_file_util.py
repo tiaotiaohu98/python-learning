@@ -18,7 +18,7 @@ class TestFileUtil(unittest.TestCase):
         # 定义一个空列表，用于接收所有文件名称
         file_list = []
         # 获取指定目录下的所有文件
-        path_list = file_util.get_dir_files_list('./test_dir')
+        path_list = file_util.get_dir_files_list('./test/test_dir')
         # 遍历path_list
         for file_path in path_list:
             # 获取文件名称
@@ -34,7 +34,7 @@ class TestFileUtil(unittest.TestCase):
         
         # 定义一个空列表
         file_name_list = []
-        path_list = file_util.get_dir_files_list('./test_dir',True)
+        path_list = file_util.get_dir_files_list('./test/test_dir',True)
         for file_path in path_list:
             file_name = os.path.basename(file_path)
             file_name_list.append(file_name)
